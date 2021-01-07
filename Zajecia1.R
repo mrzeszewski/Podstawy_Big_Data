@@ -39,9 +39,51 @@ stanowisko=factor(stanowisko,ordered = TRUE) #czynniku uporzadkowane - wedlug ko
 summary(stanowisko)
 stanowisko
 
+
+#czynniki uporzadkowa
 stanowisko=factor(stanowisko,ordered = TRUE,levels=c("doktorant","adiunkt","profesor"))
 summary(stanowisko)
 stanowisko
+
+#tworzenie ramki danych = data frame
+
+wykladowcy=data.frame(imiona_wykladowcow,
+                      wiek_wykladowcow,
+                      stanowisko,
+                      plec=c("m","m","m","m","f","f"),
+                      ocena=c(3,4,4,4.5,5,3.7))
+
+wykladowcy #uwaga - wyrzuca wszystkie dane do konsoli! Może byc problem przy duzych zbiorach
+
+summary(wykladowcy)
+
+#indeksowanie #############################################################
+
+stanowisko[1] #peirwszy element z wektora
+
+wykladowcy[2] #druga kolumna z dataframe w calosci
+
+wykladowcy[2,3] #wartosc 2 rzedu dla trzeciej kolumny
+
+wykladowcy[,c("plec")]
+wykladowcy[,c("plec","wiek_wykladowcow")]
+
+wykladowcy[1:2,c("plec","wiek_wykladowcow")] #pierwsze dwa rzedy dla dwoch kolumn plec i wiek_wykladowcow
+
+wykladowcy[,c("plec","ocena")] #dla wszystkich wierszy
+
+wykladowcy[wykladowcy$plec=="f",c("plec","ocena")] #tylko dla kobiet - "f" w kolumnie plec
+
+wykladowcy$imiona_wykladowcow #wektor warotosci z kolumny imiona_wykladowcow
+
+wykladowcy$plec=factor(wykladowcy$plec) #zmiena wartosci kolumny na czynniki
+
+######################################## Koniec czesci 1 ##################################
+
+#plot(wykladowcy) #bonus
+
+install.packages("tidyverse")
+
 
 
 
