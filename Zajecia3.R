@@ -92,11 +92,39 @@ pop_lasy=pop_lasy %>% mutate(lasy_na_mieszkanca=pow_lasow_sq2/populacja) #kolumn
 
 #dobrze jest przeksztalcic dane dalej na m2 na mieszkanca
 
-pop_lasu=pop_lasy %>% 
-  filter(rok>2000) %>% 
-  #filter(tutaj państwa wybrane)
-  group_by(country) %>% 
-  summarize(srednia_pow_lasow=mean(lasy_na_mieszkanca))
+# pop_lasy=pop_lasy %>% 
+#   filter(rok>2000) %>% 
+#   filter(country %in% nazwy1220) %>% 
+#   group_by(country) %>% 
+#   summarize(srednia_pow_lasow=mean(lasy_na_mieszkanca))
+
+
+cor(pop_lasy) #to nie wyjdzie bo w data frame sa dane tekstoe
+
+cor(select(pop_lasy,-country,-rok),use="complete.obs")
+
+install.packages("corrplot")
+library(corrplot)
+
+tablica_korelacji=cor(select(pop_lasy,-country,-rok),use="complete.obs")
+
+
+corrplot(tablica_korelacji)
+
+corrplot(tablica_korelacji,method="color", type="full")
+
+
+#ZADANIE 4
+
+# Dla przypisanych do grupy panstw utworz data frame zawierajcy zmienne: populacja, gdp 
+# oraz 8 innych dowolnie wybranych. Przeformatuj na format tidy - long. Wykonaj wykres correlogram 
+# dla tak utworzonej bazy danych. Wyniki przedstaw w postaci skryptu i wykresu.  
+
+
+
+
+
+
 
 
 
