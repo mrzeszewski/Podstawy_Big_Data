@@ -69,11 +69,44 @@ lasy_gdp %>%
   arrange(-srednia_lasy_gdp)
 
 
-#####ZADANIE 2
+#####ZADANIE 3
 
 #Te same państwa jak w zad1 czyli grupa 1 - 1:10, grupa 3 -31:40
-# porownanie powierznichi lasow na jednego mieszkanca, srednio dla XXIw
-#wynik w postaci tabeli oraz skryptu R, wrzucony na kanal grupy. 
+# porownanie powierznichi lasow na jednego mieszkanca srednio dla XXIw
+#wynik w postaci tabeli oraz skryptu R, wrzucony na kanal grupy.
+
+#wczytanie danych
+
+#przetworzenie danych na format long (tidy)
+
+#pivot longer zmienia format na dlugi, pivot_wider na szeroki
+pow_lasow=pow_lasow %>% pivot_longer(!country,names_to="rok",values_to="pow_lasow_sq2")
+liczba_ludnosci=liczba_ludnosci %>% pivot_longer(!country,names_to="rok",values_to="populacja")
+
+
+pop_lasy=inner_join(pow_lasow,liczba_ludnosci,by=c("country","rok"))
+
+pop_lasy %>% mutate(lasy_na_mieszkanca=pow_lasow_sq2/populacja) #w tej formie kolumna nie jest dodawana do data frame tylko dane sa wyrzucane do konsoli
+
+pop_lasy=pop_lasy %>% mutate(lasy_na_mieszkanca=pow_lasow_sq2/populacja) #kolumna dodana
+
+#dobrze jest przeksztalcic dane dalej na m2 na mieszkanca
+
+pop_lasu=pop_lasy %>% 
+  filter(rok>2000) %>% 
+  #filter(tutaj państwa wybrane)
+  group_by(country) %>% 
+  summarize(srednia_pow_lasow=mean(lasy_na_mieszkanca))
+
+
+
+
+
+
+
+
+
+
 
 
 
