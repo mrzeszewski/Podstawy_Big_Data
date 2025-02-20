@@ -76,6 +76,44 @@ Podsumowując, dane to nie tylko surowe fakty, ale twory zależne od procesów i
 
 ## Czym są duże zbiory danych - Big Data?
 
+1. **Czym jest Big Data?**
+Big Data to termin opisujący ogromne ilości danych, które są generowane, przechowywane i analizowane w czasie rzeczywistym lub niemal rzeczywistym. Początkowo termin ten został użyty w latach 90. XX wieku przez Johna Masheya do opisu metod analizy masowych zbiorów danych. Jego znaczenie wzrosło po 2008 roku, kiedy stał się popularnym pojęciem w nauce, biznesie i mediach.
+
+Big Data nie ma jednej ustalonej definicji, ale najczęściej odnosi się do zestawów danych charakteryzujących się **3V**:
+1. **Volume (objętość)** – olbrzymie ilości danych, sięgające terabajtów i petabajtów.
+2. **Velocity (prędkość)** – dane generowane w czasie rzeczywistym lub niemal w czasie rzeczywistym.
+3. **Variety (różnorodność)** – dane mogą mieć formę zarówno ustrukturyzowaną (np. bazy danych), jak i nieustrukturyzowaną (np. obrazy, nagrania, teksty).
+
+Dodatkowe cechy Big Data obejmują:
+- **Exhaustivity (kompletność)** – dążenie do uchwycenia całych populacji lub systemów (n = all), a nie próbek.
+- **Granularity (granularność)** – bardzo szczegółowe dane, często dotyczące jednostek indywidualnych.
+- **Relationality (relacyjność)** – możliwość łączenia danych z różnych źródeł.
+- **Scalability (skalowalność)** – zdolność do dynamicznego powiększania zbiorów danych.
+
+Big Data jest kluczowym elementem rewolucji cyfrowej i znajduje zastosowanie w takich dziedzinach jak biznes, nauka, administracja publiczna, medycyna, a także media społecznościowe.
+
+---
+
+2. **Różnice między Big Data a Small Data**
+Big Data często kontrastuje się ze Small Data, czyli tradycyjnymi zbiorami danych, które są ograniczone pod względem rozmiaru, różnorodności i szybkości generowania. Kluczowe różnice między tymi dwoma typami danych można podsumować w poniższej tabeli:
+
+| **Cecha**         | **Big Data**                                        | **Small Data**                                    |
+|-------------------|--------------------------------------------------|------------------------------------------------|
+| **Objętość**      | Bardzo duże zbiory danych (terabajty, petabajty)  | Ograniczone zbiory danych (megabajty, gigabajty) |
+| **Prędkość**      | Dane generowane i przetwarzane w czasie rzeczywistym | Dane gromadzone okresowo (np. raz na miesiąc) |
+| **Różnorodność**  | Dane ustrukturyzowane i nieustrukturyzowane (teksty, obrazy, nagrania) | Dane zazwyczaj ustrukturyzowane (arkusze kalkulacyjne, bazy danych) |
+| **Zakres**        | Dążenie do objęcia całych populacji (n = all)   | Ograniczone próbki danych (np. badania ankietowe) |
+| **Elastyczność**  | Możliwość dynamicznego dodawania nowych pól i skalowania zbiorów danych | Zbiory danych często zamknięte i trudne do rozbudowy |
+| **Źródło**        | Często dane generowane automatycznie (czujniki, urządzenia IoT, social media) | Dane ręcznie zbierane przez ludzi (badania ankietowe, eksperymenty) |
+| **Cel analizy**   | Poszukiwanie wzorców i zależności, analiza predykcyjna | Analiza szczegółowa i dokładna, eksploracja kontekstowa |
+| **Przetwarzanie** | Wymaga zaawansowanych metod analizy (AI, machine learning, chmura obliczeniowa) | Może być przetwarzane przy użyciu tradycyjnych narzędzi (np. Excel) |
+
+Podczas gdy **Big Data koncentruje się na odkrywaniu nowych wzorców i trendów na dużą skalę**, Small Data są często używane do **dogłębnej analizy konkretnych przypadków lub małych grup badawczych**.
+
+---
+
+Zalety Big Dtaa to zdolność do analizy w czasie rzeczywistym, różnorodność źródeł danych i elastyczność w przetwarzaniu. Jednak nie należy lekceważyć wartości Small Data, które pozostają kluczowe w badaniach wymagających szczegółowej analizy, interpretacji kontekstowej i precyzyjnego podejścia do danych. Obie metody sa coraz częściej łączone, co pozwola na jeszcze głębsze zrozumienie otaczającego świata.
+
 
 ## Źródła informacji w skrypcie i literatura:
 * Kitchin, R., 2014. The data revolution. SAGE Publications Ltd, Thousand Oaks, CA.
