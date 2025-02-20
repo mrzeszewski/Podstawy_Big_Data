@@ -17,7 +17,8 @@
 3. **Dane jako element wiedzy**  
    Dane stanowią podstawę hierarchii wiedzy – tzw. piramidy danych (Data-Information-Knowledge-Wisdom, DIKW): 
    ``` 
-   Dane → Informacja (przetworzone dane) → Wiedza (zrozumienie informacji) → Mądrość (umiejętność stosowania wiedzy w kontekście)​
+   Dane → Informacja (przetworzone dane) → Wiedza (zrozumienie informacji) → Mądrość (umiejętność stosowania wiedzy w kontekście
+   )​
 4. **Neutralność i obiektywność danych**  
    Choć dane są często traktowane jako neutralne i obiektywne, w rzeczywistości są produktem określonych idei, technik, systemów i kontekstów. Ich generowanie i interpretacja są wynikiem norm, procedur i przyjętych standardów. Z krytycznego ale także z bardzo pragmatycznego punktu widzenia, dane nie są "surowe", lecz zawsze "przetworzone" – ich wybór i sposób prezentacji mają wpływ na ich znaczenie i użyteczność.
 
