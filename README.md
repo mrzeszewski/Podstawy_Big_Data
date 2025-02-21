@@ -1,13 +1,31 @@
 # Zasoby i Wykorzystanie Big Data
-Materiały do zajęć z przedmiotu Zasoby i Wykorzystanie Big Data
+Materiały do zajęć z przedmiotu Zasoby i Wykorzystanie Big Data. Poniżej możecie znależć linki do platform, z jakich będziemy korzystać na zajęciach. Dodatkowo - literatura, tutoriale i dane. 
+
+## Platformy i środowiska wykorzystywane na zajęciach
+
+1. [Google Cloud](https://cloud.google.com/)
+2. [Google Earth Engine (Python)](https://earthengine.google.com/)
+3. [Google Collab (Python)](https://colab.research.google.com/) 
+4. [Microsoft Azure (R, Python, SQL)](https://azure.microsoft.com/pl-pl/) *koniecznie zobacz [dostep do Azure przez UAM](https://laboratoria.wmi.amu.edu.pl/uslugi/zewnetrzne-uslugi/azure-dla-studentow/) 
+5. [RSudio (R)](https://posit.co/download/rstudio-desktop/)
+
+## Skrypt do zajęć
+
+1. [Część 1 - Czym są Big Data?](Big_Data_skrypt_do_zajec.md)
+
+
+## Literatura
+
+1. [Geocomputation with R/Python/Julia](https://geocompx.org/)
 
 ## Przydatne linki
 
-1. Kurs podstaw programowania w R autorstwa Łukasza Wawrowskiego: http://www.wawrowski.edu.pl/ppr/
-2. Ściąga języka graficznego *ggplot2*: https://rstudio.github.io/cheatsheets/html/data-visualization.html 
-3. Ściąga przetwarzania danych: https://rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf
-4. Animacje pokazuące sposoby łączenia danych w środowisku pakietów tidyverse: https://github.com/gadenbuie/tidyexplain
+1. Tutoriale na YT (Python, Machine Learning, R)- [Analiza danych z Arkadiuszem](https://www.youtube.com/@zArkadiuszem)
+2. Kurs podstaw programowania w R autorstwa Łukasza Wawrowskiego: http://www.wawrowski.edu.pl/ppr/
+3. Ściąga języka graficznego *ggplot2*: https://rstudio.github.io/cheatsheets/html/data-visualization.html 
+4. Ściąga przetwarzania danych: https://www.rstudio.com/wp-content%2Fuploads%2F2015%2F02%2Fdata-wrangling-cheatsheet.pdf%2F
+5. Animacje pokazuące sposoby łączenia danych w środowisku pakietów tidyverse: https://github.com/gadenbuie/tidyexplain
 
-## Wykorzystywane dane
+## Zbiory danych (różne)
 
 - Dane z Gapmindera (trzeba wybrać wskaźnik): https://www.gapminder.org/data/
