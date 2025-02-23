@@ -22,11 +22,12 @@ Materiały do zajęć z przedmiotu Zasoby i Wykorzystanie Big Data. Poniżej mo�
 
 1. [Podstawowy tutorial GEE i Pythona w Google Collab](https://colab.research.google.com/github/google/earthengine-community/blob/master/guides/linked/generated/quickstart_python.ipynb)
 2. Tutoriale Google Earth Engine napisane przez społeczność - [https://developers.google.com/earth-engine/tutorials/community/explore)](https://developers.google.com/earth-engine/tutorials/community/explore)
-3. Tutoriale na YT (Python, Machine Learning, R)- [Analiza danych z Arkadiuszem](https://www.youtube.com/@zArkadiuszem)
-4. Kurs podstaw programowania w R autorstwa Łukasza Wawrowskiego: http://www.wawrowski.edu.pl/ppr/
-5. Ściąga języka graficznego *ggplot2*: https://rstudio.github.io/cheatsheets/html/data-visualization.html 
-6. Ściąga przetwarzania danych: https://www.rstudio.com/wp-content%2Fuploads%2F2015%2F02%2Fdata-wrangling-cheatsheet.pdf%2F
-7. Animacje pokazuące sposoby łączenia danych w środowisku pakietów tidyverse: https://github.com/gadenbuie/tidyexplain
+3. Kurs podstawowy z bardzo przydatną listą odwołań [Python W3 Schools](https://www.w3schools.com/python/default.asp)
+4. Tutoriale na YT (Python, Machine Learning, R)- [Analiza danych z Arkadiuszem](https://www.youtube.com/@zArkadiuszem)
+5. Kurs podstaw programowania w R autorstwa Łukasza Wawrowskiego: http://www.wawrowski.edu.pl/ppr/
+6. Ściąga języka graficznego *ggplot2*: https://rstudio.github.io/cheatsheets/html/data-visualization.html 
+7. Ściąga przetwarzania danych: https://www.rstudio.com/wp-content%2Fuploads%2F2015%2F02%2Fdata-wrangling-cheatsheet.pdf%2F
+8. Animacje pokazuące sposoby łączenia danych w środowisku pakietów tidyverse: https://github.com/gadenbuie/tidyexplain
 
 ## Zbiory danych (różne)
 
