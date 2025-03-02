@@ -1,122 +1,139 @@
-# Skrypt do przedmiotu **Zasoby i Wykorzystanie Big Data cz.1 - Czym są Big Data?**
-
-- [Skrypt do przedmiotu **Zasoby i Wykorzystanie Big Data cz.1 - Czym są Big Data?**](#skrypt-do-przedmiotu-zasoby-i-wykorzystanie-big-data-cz1---czym-są-big-data)
-  - [Czym są dane?](#czym-są-dane)
-  - [Czym są duże zbiory danych - Big Data?](#czym-są-duże-zbiory-danych---big-data)
-  - [Źródła informacji w skrypcie i literatura:](#źródła-informacji-w-skrypcie-i-literatura)
+# Skrypt do przedmiotu **Zasoby i Wykorzystanie Big Data cz.2 - Zastosowanie Big Data w Gospodarce Przestrzennej**
 
 
-## Czym są dane?
+## Zastosowanie w gospodarce przestrzennej
 
-1. **Etymologia i znaczenie**  
-   Słowo "data" pochodzi z łacińskiego *dare*, co oznacza "dać". W sensie dosłownym *dane to surowe elementy, które mogą być wydobyte z różnych zjawisk, mierzone i rejestrowane na różne sposoby*. W praktycznym użyciu dane są jednak elementami, które zostały *zebrane*, a nie *dane* – co podkreśla koncepcja *capta* (z łac. *capere* – "brać"), wskazując na selektywny charakter danych. 
-   W publikacji [Grabowskiego i Zająca (2009)](https://www.cri.agh.edu.pl/uczelnia/tad/PSI11/art/Dane_informacje_wiedza.pdf) można znaleźć przystępną dyskusję na temat różnych definicji danych.
+## Przykłady zastosowań
 
-2. **Charakterystyka danych**  
-   Dane to podstawowy surowiec, który pozwala na tworzenie informacji i wiedzy. Mogą one przyjmować różne formy: liczby, znaki, symbole, obrazy, dźwięki, fale elektromagnetyczne czy bity. Często są reprezentacją rzeczywistości (np. pomiar wieku, wzrostu, wagi), ale mogą być także implikowane (np. brak określonego zjawiska) lub pochodne (np. procentowa zmiana wartości w czasie). Dane mogą być przechowywane w formie analogowej lub cyfrowej.
-3. **Dane jako element wiedzy**  
-   Dane stanowią podstawę hierarchii wiedzy – tzw. piramidy danych (Data-Information-Knowledge-Wisdom, DIKW): 
-   ``` 
-   Dane → Informacja (przetworzone dane) → Wiedza (zrozumienie informacji) → Mądrość (umiejętność stosowania wiedzy w kontekście
-   )​
-4. **Neutralność i obiektywność danych**  
-   Choć dane są często traktowane jako neutralne i obiektywne, w rzeczywistości są produktem określonych idei, technik, systemów i kontekstów. Ich generowanie i interpretacja są wynikiem norm, procedur i przyjętych standardów. Z krytycznego ale także z bardzo pragmatycznego punktu widzenia, dane nie są "surowe", lecz zawsze "przetworzone" – ich wybór i sposób prezentacji mają wpływ na ich znaczenie i użyteczność.
+### Źródła
 
-5. **Właściwości danych**  
-   Dane posiadają pewne cechy:
-   - Są **abstrakcyjne** i mogą być agregowane (dodawane do siebie).
-   - Mają sens niezależnie od formatu, medium, języka czy kontekstu, w jakim zostały stworzone.
-   - Istnieją różne rodzaje danych, m.in. pierwotne, wtórne, metadane, operacyjne czy pochodne.
-
-6. **Dane jako element większej struktury**  
-   Dane nie istnieją w izolacji – są częścią większych zbiorów i infrastruktur. Ich gromadzenie, organizowanie i analiza są uwarunkowane technologiami, instytucjami oraz normami społecznymi i ekonomicznymi. Stąd mówi się o "ekosystemach danych" (**data ecosystems**) lub "zbiorach danych" (**datasets**), które mają kluczowe znaczenie dla funkcjonowania współczesnych społeczeństw.
-
-7. **Typy danych i formy**  
-   Istnieje bardzo wiele różnych definicji ale i typów danych. Poniżej w tabeli słownik róznych typów danych. Nie jest to klasyfikacja i typy w niej zawarte przenikają się na wiele sposóbów ale tabela zawiera zestaw najczęściej spotykanych terminów używanych na opis 
-
-***Tabela 1. Typy danych***
-|Typ danych          |Opis                                                                 |
-|--------------------|---------------------------------------------------------------------|
-|**Dane pierwotne**     |Surowe dane zebrane bezpośrednio z obserwacji lub eksperymentu.      |
-|**Dane wtórne**        |Dane uzyskane w wyniku przetwarzania lub analizy danych pierwotnych. |
-|**Metadane**            |Dane opisujące inne dane, np. informacje o autorze, dacie utworzenia.|
-|**Dane operacyjne**     |Dane generowane w toku działania systemów, np. logi komputerowe.     |
-|**Dane pochodne**      |Dane pochodzące z analizy lub modelowania innych danych.             |
-|**Dane analogowe**      |Dane zapisane w formie niecyfrowej, np. zapisane na papierze.        |
-|**Dane cyfrowe**        |Dane zapisane w formacie cyfrowym, np. pliki komputerowe.            |
-|**Dane osobowe**        |Dane umożliwiające identyfikację osoby fizycznej, np. PESEL.         |
-|**Dane administracyjne**|Dane zbierane przez instytucje rządowe do celów administracyjnych.   |
-|**Dane przestrzenne**   |Dane zawierające położenie w przestrzeni, np. współrzędne GPS.       |
-|**Dane otwarte**        |Dane dostępne publicznie, bez ograniczeń dostępu.                    |
-|**Big Data**            |Dane o dużej objętości, różnorodności i szybkości przetwarzania.     |
-|**Dane rzeczywiste**    |Dane odzwierciedlające rzeczywiste zjawiska lub obserwacje.          |
-|**Dane syntetyczne**   |Dane wygenerowane sztucznie w celu testowania lub analizy.           |
-|**Dane agregowane**     |Dane połączone lub uśrednione z różnych źródeł.                      |
+1. Przykłady 1-5: Karimi, H.A., 2024. Big Data: Techniques and Technologies in Geoinformatics, 2nd ed. CRC Press, Boca Raton. https://doi.org/10.1201/9781003406969
 
 
+### 1. Analiza danych z mediów społecznościowych do badania dynamiki miejskiej
 
+*Rozdział: 11 - "Big Data Challenges in Social Media"
+Autorzy: Hassan A. Karimi*
 
-***Tabela 2. Formy danych***
-| Forma danych       | Opis |
-|--------------------|------|
-| **Dane nominalne** | Dane podzielone na kategorie bez określonego porządku, np. kolory, płeć. |
-| **Dane porządkowe** | Dane uporządkowane według określonej hierarchii, np. oceny w szkole. |
-| **Dane interwałowe** | Dane liczbowe o równych odstępach, ale bez rzeczywistego zera, np. temperatura w °C. |
-| **Dane ilorazowe** | Dane liczbowe z rzeczywistym zerem, np. masa, długość. |
-| **Dane ciągłe** | Dane mogące przyjmować dowolne wartości w określonym zakresie, np. waga. |
-| **Dane dyskretne** | Dane przyjmujące tylko określone wartości, np. liczba dzieci w rodzinie. |
-| **Dane jakościowe** | Dane opisujące cechy jakościowe, np. rodzaj samochodu. |
-| **Dane ilościowe** | Dane opisujące ilość lub wielkość, np. dochód, wzrost. |
-| **Dane binarne** | Dane przyjmujące tylko dwie wartości, np. tak/nie, 0/1. |
-| **Dane kategoryczne** | Dane podzielone na kategorie o określonym zbiorze wartości. |
-| **Dane skalarne** | Dane mierzone w jednej skali liczbowej, np. temperatura w kelwinach. |
-| **Dane czasowe** | Dane związane z czasem, np. data urodzenia, czas trwania wydarzenia. |
+#### Użyte dane:
+- Dane geolokalizacyjne i tekstowe z Twittera, Facebooka, Foursquare, Instagramu.
 
+#### Technologia:
+- **Analiza sieci społecznych (SNA, Social Network Analysis)** – badanie połączeń między użytkownikami w celu identyfikacji kluczowych miejsc spotkań.
+- **Przetwarzanie w chmurze (Cloud Computing)** – umożliwia szybkie analizowanie ogromnych zbiorów danych.
+- **Algorytmy analizy przestrzennej (GIS + Big Data)** – mapowanie wzorców mobilności użytkowników.
+- **Uczenie maszynowe (ML, Machine Learning)** – klasyfikacja miejsc według popularności i funkcji (np. miejsca rekreacji, biznesu).
 
-Podsumowując, dane to nie tylko surowe fakty, ale twory zależne od procesów ich zbierania, organizowania i interpretowania. Ich znaczenie i użyteczność wynikają z kontekstu, w którym są stosowane, oraz technologii, które umożliwiają ich analizę i przetwarzanie.
+#### Jak konkretnie użyto technologii?
+- **Uczenie maszynowe (NLP – przetwarzanie języka naturalnego)** analizowało treść postów, aby określić ich emocjonalny wydźwięk (np. pozytywne/negatywne doświadczenia w danym miejscu).
+- **Klasteryzacja (np. algorytmy K-Means, DBSCAN)** grupowała często odwiedzane miejsca w kategorie (np. obszary turystyczne vs. dzielnice biznesowe).
+- **Sieci neuronowe (Recurrent Neural Networks, RNN)** analizowały czasowe zmiany aktywności użytkowników w różnych dzielnicach.
 
-## Czym są duże zbiory danych - Big Data?
-
-1. **Czym jest Big Data?**
-Big Data to termin opisujący ogromne ilości danych, które są generowane, przechowywane i analizowane w czasie rzeczywistym lub niemal rzeczywistym. Początkowo termin ten został użyty w latach 90. XX wieku przez Johna Masheya do opisu metod analizy masowych zbiorów danych. Jego znaczenie wzrosło po 2008 roku, kiedy stał się popularnym pojęciem w nauce, biznesie i mediach.
-
-Big Data nie ma jednej ustalonej definicji, ale najczęściej odnosi się do zestawów danych charakteryzujących się **3V**:
-1. **Volume (objętość)** – olbrzymie ilości danych, sięgające terabajtów i petabajtów.
-2. **Velocity (prędkość)** – dane generowane w czasie rzeczywistym lub niemal w czasie rzeczywistym.
-3. **Variety (różnorodność)** – dane mogą mieć formę zarówno ustrukturyzowaną (np. bazy danych), jak i nieustrukturyzowaną (np. obrazy, nagrania, teksty).
-
-Dodatkowe cechy Big Data obejmują:
-- **Exhaustivity (kompletność)** – dążenie do uchwycenia całych populacji lub systemów (n = all), a nie próbek.
-- **Granularity (granularność)** – bardzo szczegółowe dane, często dotyczące jednostek indywidualnych.
-- **Relationality (relacyjność)** – możliwość łączenia danych z różnych źródeł.
-- **Scalability (skalowalność)** – zdolność do dynamicznego powiększania zbiorów danych.
-
-Big Data jest kluczowym elementem rewolucji cyfrowej i znajduje zastosowanie w takich dziedzinach jak biznes, nauka, administracja publiczna, medycyna, a także media społecznościowe.
+#### Cel:
+- Identyfikacja „gorących punktów” aktywności społecznej w mieście.
+- Analiza, jak różne grupy ludzi (turyści, mieszkańcy) wykorzystują przestrzeń miejską.
+- Wspomaganie planowania urbanistycznego i turystycznego.
 
 ---
 
-2. **Różnice między Big Data a Small Data**
-Big Data często kontrastuje się ze Small Data, czyli tradycyjnymi zbiorami danych, które są ograniczone pod względem rozmiaru, różnorodności i szybkości generowania. Kluczowe różnice między tymi dwoma typami danych można podsumować w poniższej tabeli:
+### 2. Modelowanie inteligentnych miast (Smart Cities) z wykorzystaniem Digital Twins
 
-| **Cecha**         | **Big Data**                                        | **Small Data**                                    |
-|-------------------|--------------------------------------------------|------------------------------------------------|
-| **Objętość**      | Bardzo duże zbiory danych (terabajty, petabajty)  | Ograniczone zbiory danych (megabajty, gigabajty) |
-| **Prędkość**      | Dane generowane i przetwarzane w czasie rzeczywistym | Dane gromadzone okresowo (np. raz na miesiąc) |
-| **Różnorodność**  | Dane ustrukturyzowane i nieustrukturyzowane (teksty, obrazy, nagrania) | Dane zazwyczaj ustrukturyzowane (arkusze kalkulacyjne, bazy danych) |
-| **Zakres**        | Dążenie do objęcia całych populacji (n = all)   | Ograniczone próbki danych (np. badania ankietowe) |
-| **Elastyczność**  | Możliwość dynamicznego dodawania nowych pól i skalowania zbiorów danych | Zbiory danych często zamknięte i trudne do rozbudowy |
-| **Źródło**        | Często dane generowane automatycznie (czujniki, urządzenia IoT, social media) | Dane ręcznie zbierane przez ludzi (badania ankietowe, eksperymenty) |
-| **Cel analizy**   | Poszukiwanie wzorców i zależności, analiza predykcyjna | Analiza szczegółowa i dokładna, eksploracja kontekstowa |
-| **Przetwarzanie** | Wymaga zaawansowanych metod analizy (AI, machine learning, chmura obliczeniowa) | Może być przetwarzane przy użyciu tradycyjnych narzędzi (np. Excel) |
+*Rozdział: 20 - "Toward a Spatial Metaverse"
+Autorzy: Qian Sun, Shinjita Das, Kaifeng Wang, Athenee Teofilo*
 
-Podczas gdy **Big Data koncentruje się na odkrywaniu nowych wzorców i trendów na dużą skalę**, Small Data są często używane do **dogłębnej analizy konkretnych przypadków lub małych grup badawczych**.
+#### Użyte dane:
+- Dane z czujników IoT (Internet of Things), obrazy satelitarne, mapy wysokościowe, dane o natężeniu ruchu, dane demograficzne.
+
+#### Technologia:
+- **Digital Twins** – wirtualne modele rzeczywistych miast, aktualizowane w czasie rzeczywistym.
+- **Silniki gier 3D (np. Unity, Unreal Engine)** – wizualizacja danych przestrzennych w postaci interaktywnych modeli.
+- **Przetwarzanie Big Data w chmurze** – integracja danych z różnych źródeł.
+- **Uczenie maszynowe** – optymalizacja procesów miejskich (np. prognozowanie korków, analiza zużycia energii).
+
+#### Jak konkretnie użyto technologii?
+- **Modele predykcyjne (LSTM, Random Forest)** analizowały dane transportowe w celu prognozowania korków.
+- **Sieci neuronowe analizowały dane pogodowe i zanieczyszczeń**, aby przewidywać warunki środowiskowe w różnych dzielnicach.
+- **Analiza przestrzenna GIS** pozwalała ocenić, które obszary miasta są bardziej narażone na zanieczyszczenie, hałas czy brak zieleni.
+
+#### Cel:
+- Testowanie różnych scenariuszy rozwoju miasta (np. jaki wpływ na ruch drogowy będzie miała budowa nowego osiedla).
+- Optymalizacja zużycia energii poprzez analizę danych o zużyciu prądu i ogrzewania.
+- Wspomaganie decyzji planistycznych i ekologicznych.
 
 ---
 
-Zalety Big Dtaa to zdolność do analizy w czasie rzeczywistym, różnorodność źródeł danych i elastyczność w przetwarzaniu. Jednak nie należy lekceważyć wartości Small Data, które pozostają kluczowe w badaniach wymagających szczegółowej analizy, interpretacji kontekstowej i precyzyjnego podejścia do danych. Obie metody sa coraz częściej łączone, co pozwola na jeszcze głębsze zrozumienie otaczającego świata.
+### 3. Optymalizacja transportu i analiza ruchu drogowego
+
+*Rozdział: 10 - "Data Mining of Taxi Trips Using Road Network Shortcuts"
+Autorzy: Hassan A. Karimi*
+
+#### Użyte dane:
+- Dane GPS z taksówek, aplikacji mobilnych (np. Google Maps, Waze), dane o wypadkach, informacje o stanie dróg.
+
+#### Technologia:
+- **Systemy rekomendacji tras (AI-based route optimization)** – dynamiczna optymalizacja tras przejazdu.
+- **Uczenie maszynowe i analiza predykcyjna** – przewidywanie korków i opóźnień.
+- **Mapy cieplne (heatmaps) i GIS** – wizualizacja natężenia ruchu.
+
+#### Jak konkretnie użyto technologii?
+- **LSTM i XGBoost** analizowały dane historyczne i przewidywały korki w czasie rzeczywistym.
+- **Algorytmy reinforcement learning (Deep Q-Learning)** optymalizowały trasy przejazdu taksówek.
+- **Analiza grafowa (Graph Neural Networks, GNNs)** modelowała sieć dróg, szukając optymalnych tras.
+
+#### Cel:
+- Redukcja czasu podróży i korków.
+- Obniżenie emisji CO₂ przez wyznaczanie ekologicznych tras.
+- Usprawnienie transportu publicznego i zarządzania flotą pojazdów.
+
+---
+
+### 4. Wykorzystanie VGI (Volunteered Geographic Information) do planowania przestrzennego
+
+*Rozdział: 9 - "Big Data Opportunities in Volunteered Geographic Information (VGI)"
+Autorzy: Jamal Jokar Arsanjani, Mohamed Bakillah*
+
+#### Użyte dane:
+- OpenStreetMap, zdjęcia satelitarne, dane z dronów, informacje od użytkowników aplikacji mapowych.
+
+#### Technologia:
+- **Crowdsourcing i uczenie maszynowe** – integracja danych z różnych źródeł.
+- **GIS i analiza przestrzenna** – wykrywanie zmian w infrastrukturze.
+- **Computer Vision (CV)** – automatyczna analiza zdjęć satelitarnych.
+
+#### Jak konkretnie użyto technologii?
+- **Algorytmy Deep Learning (ResNet, EfficientNet)** automatycznie wykrywały nowe budynki na zdjęciach satelitarnych.
+- **Analiza danych VGI** pozwalała na automatyczną aktualizację map miejskich.
+- **Modelowanie przestrzenne (3D GIS)** wykorzystywano do oceny wpływu urbanizacji na środowisko.
+
+#### Cel:
+- Automatyczna aktualizacja map w czasie rzeczywistym.
+- Identyfikacja obszarów wymagających modernizacji (np. brakujące ścieżki rowerowe, zniszczone drogi).
+- Wsparcie decyzji dotyczących zagospodarowania przestrzennego.
+
+---
+
+### 5. Analiza jakości powietrza i zmian środowiskowych
+
+*Rozdział: 17 - "Assessing Multilevel Environmental and Air Quality Changes"
+Autorzy: Qian Sun, Shinjita Das, Siqin Wang
+*
+#### Użyte dane:
+- Dane satelitarne NASA (np. MODIS, Sentinel), pomiary IoT (czujniki jakości powietrza), modele klimatyczne.
+
+#### Technologia:
+- **Uczenie maszynowe i analiza predykcyjna** – przewidywanie zmian jakości powietrza.
+- **Big Data w chmurze** – przetwarzanie ogromnych zbiorów danych klimatycznych.
+- **GIS i mapowanie zanieczyszczeń** – wizualizacja wpływu smogu na różne dzielnice.
+
+#### Jak konkretnie użyto technologii?
+- **Random Forest i LightGBM** analizowały dane meteorologiczne i przewidywały zmiany w jakości powietrza.
+- **Deep Learning (CNN, U-Net)** klasyfikował obrazy satelitarne, identyfikując źródła emisji.
+- **Modele predykcyjne (ARIMA, Prophet)** analizowały dane historyczne i prognozowały przyszłe poziomy zanieczyszczenia.
+
+#### Cel:
+- Identyfikacja źródeł smogu (np. ruch uliczny, przemysł).
+- Pomoc w planowaniu ekologicznych stref miejskich (np. ograniczenie ruchu samochodowego w centrum).
+- Poprawa polityki zdrowotnej i ekologicznej poprzez dostarczanie danych dla administracji miejskiej.
 
 
-## Źródła informacji w skrypcie i literatura:
-* Kitchin, R., 2014. The data revolution. SAGE Publications Ltd, Thousand Oaks, CA.
-* Kitchin, R., 2025. Critical data studies: an A to Z guide to concepts and methods. Cambridge Hoboken. (publikacja w otwartym dostępię - [link](https://mural.maynoothuniversity.ie/id/eprint/19283/1/Critical%20Data%20Studies%20Kitchin%20PDF.pdf) )
-* Grabowski, M., Zając, A., 2009. Dane, informacja, wiedza–próba definicji. Zeszyty Naukowe Uniwersytetu Ekonomicznego w Krakowie 798, 99–116 - [link](https://www.cri.agh.edu.pl/uczelnia/tad/PSI11/art/Dane_informacje_wiedza.pdf).
+
