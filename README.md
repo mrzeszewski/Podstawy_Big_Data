@@ -11,7 +11,8 @@ Materiały do zajęć z przedmiotu Zasoby i Wykorzystanie Big Data. Poniżej mo�
 
 ## Skrypt do zajęć
 
-1. [Część 1 - Czym są Big Data?](Big_Data_skrypt_do_zajec.md)
+1. [Część 1 - Czym są Big Data?](Big_Data_skrypt_do_zajec_cz_1_Czym_sa_dane.md)
+2. [Część 2 - Zastosowanie Big Data w Gospodarce Przestrzennej](Big_Data_skrypt_do_zajec_cz_2_Zastosowanie_w_GP.md)
 
 
 ## Literatura
