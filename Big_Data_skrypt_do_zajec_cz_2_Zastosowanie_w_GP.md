@@ -136,4 +136,31 @@ Autorzy: Qian Sun, Shinjita Das, Siqin Wang
 - Poprawa polityki zdrowotnej i ekologicznej poprzez dostarczanie danych dla administracji miejskiej.
 
 
+### 6. Analiza tempa i przestrzennego ruchu pieszych w oparciu o Big Data
 
+*Angel, A., & Plaut, P. (2024). Tempo-spatial analysis of pedestrian movement in the built environment based on crowdsourced big data. Cities, 149, 104917.*
+
+
+#### Użyte dane:
+- 53 miliony zapisów ruchu pieszego z 83 odcinków ulic w Tel Awiwie, Izrael.
+- Dane z sieci czujników Bluetooth rozmieszczonych w przestrzeni miejskiej.
+- Informacje dotyczące lokalizacji, czasu i liczby pieszych w różnych okresach roku.
+- Dane o użytkowaniu gruntów z miejskiego systemu informacji geograficznej (GIS).
+
+#### Technologia:
+- **Czujniki Bluetooth (Bluetooth Sensor Network)** – wykrywanie unikalnych adresów MAC urządzeń mobilnych w celu monitorowania ruchu pieszych.
+- **Analiza czasowo-przestrzenna (Tempo-Spatial Analysis)** – badanie dynamiki ruchu pieszego w różnych porach dnia, tygodnia i sezonach.
+- **Systemy GIS (Geographic Information Systems)** – integracja danych przestrzennych z danymi o użytkowaniu gruntów.
+- **Uczenie maszynowe (Machine Learning)** – algorytm identyfikacji pieszych na podstawie ich prędkości i trajektorii.
+
+#### Jak konkretnie użyto technologii?
+- **Identyfikacja pieszych** – zastosowano algorytm analizy prędkości w celu oddzielenia ruchu pieszego od ruchu pojazdów.
+- **Analiza czasowa** – badano zmiany natężenia ruchu pieszego w różnych porach roku, dni tygodnia oraz porach dnia.
+- **Korelacja ruchu pieszego z użytkowaniem gruntów** – wykorzystano dane GIS do określenia relacji między liczbą pieszych a typem przestrzeni (komercyjna vs. mieszkalna).
+- **Mapa popularności tras pieszych** – określono najczęściej uczęszczane ulice na podstawie danych o ruchu pieszym.
+
+#### Cel:
+- Zrozumienie wzorców mobilności pieszych na poziomie ulicy.
+- Ocena wpływu typów użytkowania gruntów na natężenie ruchu pieszego.
+- Wsparcie decyzji urbanistycznych dotyczących poprawy infrastruktury pieszej.
+- Identyfikacja ulic wymagających inwestycji w infrastrukturę pieszą i przestrzenie publiczne.
