@@ -1,7 +1,45 @@
 # Skrypt do przedmiotu **Zasoby i Wykorzystanie Big Data cz.2 - Zastosowanie Big Data w Gospodarce Przestrzennej**
 
+- [Skrypt do przedmiotu **Zasoby i Wykorzystanie Big Data cz.2 - Zastosowanie Big Data w Gospodarce Przestrzennej**](#skrypt-do-przedmiotu-zasoby-i-wykorzystanie-big-data-cz2---zastosowanie-big-data-w-gospodarce-przestrzennej)
+  - [Przykłady zastosowań](#przykłady-zastosowań)
+    - [Źródła](#źródła)
+    - [1. Analiza danych z mediów społecznościowych do badania dynamiki miejskiej](#1-analiza-danych-z-mediów-społecznościowych-do-badania-dynamiki-miejskiej)
+      - [Użyte dane:](#użyte-dane)
+      - [Technologia:](#technologia)
+      - [Jak konkretnie użyto technologii?](#jak-konkretnie-użyto-technologii)
+      - [Cel:](#cel)
+    - [2. Modelowanie inteligentnych miast (Smart Cities) z wykorzystaniem Digital Twins](#2-modelowanie-inteligentnych-miast-smart-cities-z-wykorzystaniem-digital-twins)
+      - [Użyte dane:](#użyte-dane-1)
+      - [Technologia:](#technologia-1)
+      - [Jak konkretnie użyto technologii?](#jak-konkretnie-użyto-technologii-1)
+      - [Cel:](#cel-1)
+    - [3. Optymalizacja transportu i analiza ruchu drogowego](#3-optymalizacja-transportu-i-analiza-ruchu-drogowego)
+      - [Użyte dane:](#użyte-dane-2)
+      - [Technologia:](#technologia-2)
+      - [Jak konkretnie użyto technologii?](#jak-konkretnie-użyto-technologii-2)
+      - [Cel:](#cel-2)
+    - [4. Wykorzystanie VGI (Volunteered Geographic Information) do planowania przestrzennego](#4-wykorzystanie-vgi-volunteered-geographic-information-do-planowania-przestrzennego)
+      - [Użyte dane:](#użyte-dane-3)
+      - [Technologia:](#technologia-3)
+      - [Jak konkretnie użyto technologii?](#jak-konkretnie-użyto-technologii-3)
+      - [Cel:](#cel-3)
+    - [5. Analiza jakości powietrza i zmian środowiskowych](#5-analiza-jakości-powietrza-i-zmian-środowiskowych)
+      - [Użyte dane:](#użyte-dane-4)
+      - [Technologia:](#technologia-4)
+      - [Jak konkretnie użyto technologii?](#jak-konkretnie-użyto-technologii-4)
+      - [Cel:](#cel-4)
+    - [6. Analiza tempa i przestrzennego ruchu pieszych w oparciu o Big Data](#6-analiza-tempa-i-przestrzennego-ruchu-pieszych-w-oparciu-o-big-data)
+      - [Użyte dane:](#użyte-dane-5)
+      - [Technologia:](#technologia-5)
+      - [Jak konkretnie użyto technologii?](#jak-konkretnie-użyto-technologii-5)
+      - [Cel:](#cel-5)
+    - [7. Identyfikacja funkcjonalnych obszarów miejskich w oparciu o dane Big Data](#7-identyfikacja-funkcjonalnych-obszarów-miejskich-w-oparciu-o-dane-big-data)
+      - [Użyte dane:](#użyte-dane-6)
+      - [Technologia:](#technologia-6)
+      - [Jak konkretnie użyto technologii?](#jak-konkretnie-użyto-technologii-6)
+      - [Cel:](#cel-6)
 
-## Zastosowanie w gospodarce przestrzennej
+
 
 ## Przykłady zastosowań
 
@@ -135,6 +173,7 @@ Autorzy: Qian Sun, Shinjita Das, Siqin Wang
 - Pomoc w planowaniu ekologicznych stref miejskich (np. ograniczenie ruchu samochodowego w centrum).
 - Poprawa polityki zdrowotnej i ekologicznej poprzez dostarczanie danych dla administracji miejskiej.
 
+---
 
 ### 6. Analiza tempa i przestrzennego ruchu pieszych w oparciu o Big Data
 
@@ -164,3 +203,34 @@ Autorzy: Qian Sun, Shinjita Das, Siqin Wang
 - Ocena wpływu typów użytkowania gruntów na natężenie ruchu pieszego.
 - Wsparcie decyzji urbanistycznych dotyczących poprawy infrastruktury pieszej.
 - Identyfikacja ulic wymagających inwestycji w infrastrukturę pieszą i przestrzenie publiczne.
+
+---
+
+### 7. Identyfikacja funkcjonalnych obszarów miejskich w oparciu o dane Big Data  
+
+*Xue, B., Xiao, X., Li, J., Zhao, B., Fu, B., 2023. Multi-source Data-driven Identification of Urban Functional Areas: A Case of Shenyang, China. Chin. Geogr. Sci. 33, 21–35. https://doi.org/10.1007/s11769-022-1320-2*
+
+#### Użyte dane:
+- Dane z telefonów komórkowych o rozdzielczości **250 m × 250 m** dla miasta Shenyang, Chiny.  
+- **1,81 × 10⁵** punktów POI (Points of Interest) obejmujących różne typy obiektów miejskich.  
+- Dane granic administracyjnych oraz demograficzne.  
+- Mapy zagospodarowania przestrzennego i infrastruktury miejskiej.  
+
+#### Technologia:
+- **Analiza wieloźródłowych danych Big Data** – integracja sygnałów telefonów komórkowych, POI oraz danych urbanistycznych.  
+- **Systemy GIS (Geographic Information Systems)** – przetwarzanie i analiza danych przestrzennych.  
+- **Uczenie maszynowe (Machine Learning)** – identyfikacja obszarów funkcjonalnych poprzez algorytmy analizy gęstości ludności.  
+- **Statystyka przestrzenna** – korelacja pomiędzy aktywnością ludności a rozmieszczeniem infrastruktury miejskiej.  
+
+#### Jak konkretnie użyto technologii?
+- **Dane z telefonów komórkowych** pozwoliły określić liczbę mieszkańców i pracowników na podstawie ich lokalizacji w różnych porach dnia.  
+- **Algorytm „center of mass”** analizował lokalizację użytkowników w ciągu dnia (9:00–17:00) i nocy (21:00–8:00) w celu wyznaczenia miejsc zamieszkania i pracy.  
+- **Analiza danych POI** pozwoliła na identyfikację powiązań między infrastrukturą miejską a aktywnością populacji.  
+- **Statystyka przestrzenna** wykazała, że obszary o wysokim zagęszczeniu usług mają większą aktywność populacyjną, co potwierdzono na podstawie danych z telefonów.  
+
+#### Cel:
+- Zidentyfikowanie funkcjonalnych obszarów miejskich (mieszkalnych, biznesowych, rekreacyjnych oraz mieszanych).  
+- Analiza interakcji między strukturą przestrzenną miasta a aktywnością populacji.  
+- Wsparcie planowania przestrzennego i optymalizacji usług miejskich w oparciu o rzeczywiste dane.  
+- Ocena skuteczności dotychczasowych planów urbanistycznych i rekomendacje dla przyszłych działań.
+
