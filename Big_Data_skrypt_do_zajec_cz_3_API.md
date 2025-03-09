@@ -67,7 +67,6 @@ Poniższy kod korzysta z biblioteki **request** do utworzenia zapytania **GET** 
 
 ```
 import requests
-import json
 
 # URL API GIOŚ do pobrania listy stacji pomiarowych
 url = "https://api.gios.gov.pl/pjp-api/rest/station/findAll"
