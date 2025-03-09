@@ -62,3 +62,25 @@ API umożliwia tworzenie skryptów do automatycznej analizy danych, generowania 
   - Wykorzystanie danych w badaniach akademickich i analizach rynkowych.
 
 ## **4. Korzystanie z API przy pomocy Pythona**
+
+Poniższy kod korzysta z biblioteki **request** do utworzenia zapytania **GET** (adres URL z odpowiednimi parametrami)
+
+```
+import requests
+import json
+
+# URL API GIOŚ do pobrania listy stacji pomiarowych
+url = "https://api.gios.gov.pl/pjp-api/rest/station/findAll"
+
+# Wysłanie żądania GET do API
+response = requests.get(url)
+
+# Sprawdzenie statusu odpowiedzi
+if response.status_code == 200:
+    data = response.json()
+    # Wyświetlenie pierwszych 5 stacji
+    for station in data[:5]:
+        print(f"Nazwa stacji: {station['stationName']}, Miasto: {station['city']['name']}, ID: {station['id']}")
+else:
+    print("Błąd pobierania danych:", response.status_code)
+```
