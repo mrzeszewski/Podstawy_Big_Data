@@ -19,7 +19,7 @@
 ### **a) Pobieranie danych z różnych źródeł**
 API umożliwia integrację różnych źródeł danych, np.:
 - **Serwisy społecznościowe** (Facebook, Twitter API) – analiza sentymentu.
-- **Bazy danych pogodowych** (NOAA API) – analiza wpływu pogody na biznes.
+- **Bazy danych pogodowych** (NOAA API) – dane pogodowe w czasie rzeczywistym.
 - **Dane finansowe** (Alpha Vantage, Yahoo Finance API) – prognozowanie trendów rynkowych.
 
 ### **b) Przetwarzanie i analiza w czasie rzeczywistym**
@@ -31,4 +31,34 @@ Niektóre API, np. **Apache Kafka API**, umożliwiają przesyłanie strumieniowe
 
 ### **d) Automatyzacja procesów analitycznych**
 API umożliwia tworzenie skryptów do automatycznej analizy danych, generowania raportów oraz podejmowania decyzji na podstawie algorytmów ML/AI.
+ 
 
+## **3. Przykłady polskich API**
+
+### **API GUS (Główny Urząd Statystyczny)**
+- **Adres API:** [https://api.stat.gov.pl/](https://api.stat.gov.pl/)
+- **Opis:** API GUS umożliwia dostęp do danych statystycznych na temat demografii, gospodarki, rynku pracy i innych obszarów.
+- **Zastosowanie:**
+  - Pobieranie danych o liczbie ludności w danej gminie.
+  - Analiza wskaźników ekonomicznych.
+  - Tworzenie raportów statystycznych.
+
+### **API GIOŚ (Główny Inspektorat Ochrony Środowiska)**
+- **Adres API:** [https://powietrze.gios.gov.pl/pjp/content/api](https://powietrze.gios.gov.pl/pjp/content/api)
+- **Opis:** API GIOŚ udostępnia dane dotyczące jakości powietrza w Polsce, pochodzące z sieci monitoringu. Umożliwia dostęp do informacji o poziomach zanieczyszczeń w różnych lokalizacjach oraz historycznych danych pomiarowych.
+- **Zastosowanie:**
+  - Pobieranie aktualnych danych o jakości powietrza w wybranych miastach i regionach.
+  - Analiza długoterminowych trendów dotyczących zanieczyszczenia powietrza.
+  - Tworzenie aplikacji i narzędzi informujących o stanie powietrza w czasie rzeczywistym.
+  - Integracja z systemami ostrzegawczymi i prognozami środowiskowymi.
+
+### **API BDL (Bank Danych Lokalnych)**
+- **Adres API:** [https://bdl.stat.gov.pl/api/v1/data/](https://bdl.stat.gov.pl/api/v1/data/)
+- **Opis:** API BDL udostępnia szeroki zakres danych statystycznych na temat gospodarki, demografii, środowiska, edukacji i innych obszarów życia społeczno-ekonomicznego w Polsce. Dane dostępne są na poziomie kraju, województw, powiatów i gmin.
+- **Zastosowanie:**
+  - Pobieranie danych dotyczących struktury demograficznej i społecznej na poziomie lokalnym.
+  - Analiza trendów ekonomicznych i rozwoju regionalnego.
+  - Tworzenie interaktywnych wizualizacji i raportów statystycznych.
+  - Wykorzystanie danych w badaniach akademickich i analizach rynkowych.
+
+## **4. Korzystanie z API przy pomocy Pythona**
