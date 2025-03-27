@@ -28,6 +28,20 @@
 
 ## 2. Jak korzystać z Google Earth Engine?
 
+Żeby korzystać z GEE trzeba mieć projekt Google Cloud [tutaj można go założyć i zarejestrować](https://www.google.com/url?q=https%3A%2F%2Fcode.earthengine.google.com%2Fregister). Zostaniesz poproszony o wykonanie poniższych kroków. 
+
+1. Wybierz cel projektu: komercyjny lub niekomercyjny.
+
+2. Jeśli celem jest niekomercyjny, wybierz typ projektu.
+
+3. Utwórz nowy projekt Google Cloud lub wybierz istniejący projekt.
+
+4. Jeśli celem jest komercyjny, zweryfikuj lub skonfiguruj rozliczenia dla projektu.
+
+5. Potwierdź informacje o projekcie.
+
+Istnieją dwa główne sposoby korzystania z GEE - Javascript (Edytor graficzny kodu jest dostępny) i Python. Kod można konwerować na różne sposoby, również półautomatycznie. 
+
 ### 2.1 Edytor kodu Earth Engine (JavaScript)
 
 - **Adres:** https://code.earthengine.google.com  
@@ -52,16 +66,12 @@ Map.addLayer(built2020, visParams, 'Built-up 2020');
 ### 2.2 Earth Engine API w Pythonie
 
 - Instalacja: `pip install earthengine-api`
-- Uwierzytelnienie:
-```bash
-earthengine authenticate
-```
 
 - Inicjalizacja w Pythonie:
 ```python
 import ee
 ee.Authenticate()
-ee.Initialize()
+ee.Initialize(project='ID_PROJEKTU - wpisz tutaj własny')
 ```
 
 **Przykład: obliczenie liczby mieszkańców w obrębie Warszawy**
