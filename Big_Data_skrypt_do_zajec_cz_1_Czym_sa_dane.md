@@ -1,6 +1,6 @@
-# Skrypt do przedmiotu **Zasoby i Wykorzystanie Big Data**
+# Skrypt do przedmiotu **Zasoby i Wykorzystanie Big Data cz.1 - Czym są Big Data?**
 
-- [Skrypt do przedmiotu **Zasoby i Wykorzystanie Big Data**](#skrypt-do-przedmiotu-zasoby-i-wykorzystanie-big-data)
+- [Skrypt do przedmiotu **Zasoby i Wykorzystanie Big Data cz.1 - Czym są Big Data?**](#skrypt-do-przedmiotu-zasoby-i-wykorzystanie-big-data-cz1---czym-są-big-data)
   - [Czym są dane?](#czym-są-dane)
   - [Czym są duże zbiory danych - Big Data?](#czym-są-duże-zbiory-danych---big-data)
   - [Źródła informacji w skrypcie i literatura:](#źródła-informacji-w-skrypcie-i-literatura)
