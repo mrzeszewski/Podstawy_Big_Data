@@ -76,12 +76,10 @@ ee.Initialize(project='ID_PROJEKTU - wpisz tutaj własny')
 
 **Przykład: obliczenie liczby mieszkańców w obrębie Warszawy**
 ```python
-pop2020 = (ee.ImageCollection("WorldPop/GP/100m/pop")
-           .filter(ee.Filter.eq('year', 2020))
-           .first()
-           .select('population'))
+roi = ee.Geometry.Rectangle([20.85, 52.08, 21.27, 52.37]) #przybliżony BBOX  Warszawy
 
-roi = ee.Geometry.Rectangle([20.85, 52.08, 21.27, 52.37])
+pop2020 = ee.ImageCollection("WorldPop/GP/100m/pop").filterBounds(roi).first()
+
 
 total_pop = pop2020.reduceRegion(
     reducer = ee.Reducer.sum(),
@@ -90,7 +88,7 @@ total_pop = pop2020.reduceRegion(
     maxPixels = 1e9
 )
 
-print('Liczba mieszkańców:', total_pop.getInfo()['population'])
+print('Liczba mieszkańców:', total_pop.getInfo())
 ```
 
 ---
